@@ -2,6 +2,8 @@
 
 require('dotenv').config({ silent: true });
 
+var as_agent = require('bluemix-autoscaling-agent');
+
 // Deployment tracking
 require('cf-deployment-tracker-client').track();
 
